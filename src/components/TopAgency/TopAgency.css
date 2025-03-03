@@ -1,0 +1,19 @@
+.swiper-topAgency {
+    width: 85%;
+    height: 680px;
+    /* border: 4px solid white; */
+}
+
+.swiper-topAgency .swiper-slide {
+    /* border: 4px solid blue; */
+    width: 389px ;
+    height: 632.42px;
+    border-radius: 24px;
+}
+
+.swiper-topAgency .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+}

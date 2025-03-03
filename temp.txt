@@ -1,0 +1,16 @@
+ {/* <div className="w-1/2 space-y-6">
+          <h4 className="text-sm font-medium tracking-widest bg-gradient-to-b from-green-400 to-blue-500 text-transparent bg-clip-text">ANGEL K MEDIA & ENTERTAINMENT</h4>
+          <h1 className="text-4xl font-extrabold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text ">
+            TÌM KIẾM - HỢP TÁC <br /> NHÀ SÁNG TẠO LIVESTREAM
+          </h1>
+          <p className="text-lg italic">
+            Angel K là công ty với đội ngũ quản lý chuyên nghiệp dựa trên hơn 8 năm kinh nghiệm trong việc Quản lý - Đào tạo - Định hướng phát triển Idol - Kols chuyên nghiệp...
+          </p>
+          <span className="px-1 py-0.5 bg-red-600 text-white font-bold rounded-lg">
+            LIVE
+          </span>
+          <span className='px-1'>PERFORMANCE</span>
+        </div>
+        <div className='flex justify-center items-center'>
+
+        </div> */}
