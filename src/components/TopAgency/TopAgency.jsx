@@ -40,16 +40,31 @@ const TopAgency = () => {
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
                 grabCursor={true}
-                spaceBetween={40}
-                slidesPerView={4}
+                spaceBetween={10}
+                slidesPerView={1}
                 initialSlide={1}
                 pagination={{ clickable: true }}
                 navigation
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                }}
                 // centeredSlides={true}
                 // autoplay={{
                 //     delay: 3000,
                 //     disableOnInteraction: false,
                 // }}
+                loop={true}
                 className='swiper-topAgency'
             >
                 {Section01Data.map((slide, index) => (

@@ -115,7 +115,7 @@ const Home = () => {
         </div>
 
         <div className='flex justify-center mt-6'>
-          <div className=' w-[1623px] h-[697.25px] rounded-2xl bg-white flex flex-col justify-center items-center'>
+          <div className=' w-4/5 aspect-video rounded-2xl bg-white flex flex-col justify-center items-center'>
             <h1 className='flex justify-center items-center text-4xl'>This is an image</h1>
             <button className='mt-100 text-amber-300 bg-black py-2 px-6 rounded-lg' onClick={() => { console.log("clicked") }}>Đăng ký tại đây</button>
           </div>
@@ -154,7 +154,53 @@ const Home = () => {
       </section>
       {/* section4 */}
       <section>
-        <TopAgency/>
+        <TopAgency />
+      </section>
+      {/* section6 */}
+      <section>
+        <div className='flex mt-6 justify-center'>
+          <h1 className="text-6xl pt-6  font-extrabold gradient-text">
+            VIDEO NỔI BẬT
+          </h1>
+        </div>
+        <div class="line-container">
+          <div class="line-effect"></div>
+          <div class="diamond"></div>
+        </div>
+        <div class="flex justify-center gap-8 p-8">
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+        </div>
+        <div class="flex justify-center gap-8 p-8">
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
+
+          </div>
+        </div>
       </section>
     </div>
   )

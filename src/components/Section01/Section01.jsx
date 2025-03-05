@@ -18,7 +18,7 @@ const Section01Data = [
 const Section01 = () => {
     return (
         <Swiper
-            modules={[ Autoplay]}
+            modules={[Autoplay]}
             grabCursor={true}
             slidesPerView={1}
             initialSlide={1}
@@ -27,6 +27,7 @@ const Section01 = () => {
                 delay: 3000,
                 disableOnInteraction: false,
             }}
+            
             className='swiper-section01'
         >
             {Section01Data.map((slide, index) => (
