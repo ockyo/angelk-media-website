@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer';
 import Home from './pages/Home'
 import CreatorAgency from './pages/CreatorAgency/CreatorAgency';
 
@@ -15,6 +16,7 @@ function App() {
             <Route path="/creator-agency" element={<CreatorAgency />} />
           </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   )
