@@ -7,6 +7,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
 
 import '../TopCreator/TopCreator.css'
+
 import image0 from '../../assets/images/img_0.jpg'
 import image1 from '../../assets/images/img_1.jpg'
 import image2 from '../../assets/images/img_2.jpg'
@@ -37,6 +38,7 @@ const TopCreator = () => {
                     delay: 3000,
                     disableOnInteraction: false,
                 }}
+                
                 speed={1000}
                 loop={true}
                 className='swiper-swipercard'
@@ -45,24 +47,25 @@ const TopCreator = () => {
                     <img src={image0} alt="image0" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image1} alt="image1" />
+                    <img src={image0} alt="image1" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image2} alt="image2" />
+                    <img src={image0} alt="image2" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image3} alt="image3" />
+                    <img src={image0} alt="image3" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image4} alt="image4" />
+                    <img src={image0} alt="image4" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image5} alt="image5" />
+                    <img src={image0} alt="image5" />
                 </SwiperSlide>
                 <SwiperSlide >
-                    <img src={image6} alt="image6" />
+                    <img src={image0} alt="image6" />
                 </SwiperSlide>
-                
+
+
             </Swiper>
         </div>
     )

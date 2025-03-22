@@ -1,8 +1,11 @@
 import React from 'react'
 import TopCreator from '../components/TopCreator/TopCreator'
 import Section01 from '../components/Section01/Section01'
-import SparklingStars from '../components/SparklingStars'
+import pintopsp from "../assets/pintop-sp.png"
 import TopAgency from '../components/TopAgency/TopAgency'
+import event1 from "../assets/tintucvasukien/event1.png"
+import event2 from "../assets/tintucvasukien/event2.png"
+import event3 from "../assets/tintucvasukien/event3.png"
 const Home = () => {
   return (
     <div className='bg-black'>
@@ -114,10 +117,14 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex justify-center mt-6'>
-          <div className=' w-4/5 aspect-video rounded-2xl bg-white flex flex-col justify-center items-center'>
-            <h1 className='flex justify-center items-center text-4xl'>This is an image</h1>
-            <button className='mt-100 text-amber-300 bg-black py-2 px-6 rounded-lg' onClick={() => { console.log("clicked") }}>Đăng ký tại đây</button>
+        <div className='flex relative justify-center items-center rounded-2xl mt-6 bg-black'>
+
+          <img src={pintopsp} alt="" />
+
+          <div className="absolute bottom-4">
+            <button className="bg-gradient-to-r from-[#FFE9B4] to-[#FFECBE] text-black font-bold py-2 px-4 rounded-lg shadow-lg text-center" onClick={() => { console.log("clicked") }}>
+              Đăng ký tại đây
+            </button>
           </div>
         </div>
 
@@ -134,26 +141,17 @@ const Home = () => {
           <div class="line-effect"></div>
           <div class="diamond"></div>
         </div>
-        <div class="flex justify-center gap-8 p-8">
-          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
-            <button class="bg-gradient-to-r  from-[#FFE9B4] to-[#FFECBE] text-black font-bold py-2 px-6 rounded-full shadow-lg">
-              TÊN SỰ KIỆN 1
-            </button>
-          </div>
-          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
-            <button class="bg-gradient-to-r  from-[#FFE9B4] to-[#FFECBE] text-black font-bold py-2 px-6 rounded-full shadow-lg">
-              TÊN SỰ KIỆN 2
-            </button>
-          </div>
-          <div class="w-64 h-96 bg-white/30 rounded-2xl flex flex-col items-center justify-end pb-8">
-            <button class="bg-gradient-to-r  from-[#FFE9B4] to-[#FFECBE] text-black font-bold py-2 px-6 rounded-full shadow-lg">
-              TÊN SỰ KIỆN 3
-            </button>
-          </div>
+        <div className="flex flex-wrap justify-center gap-8 p-8">
+          {[event1, event2, event3].map((event, index) => (
+            <div key={index} className="w-64 bg-white/30 rounded-2xl flex flex-col items-center justify-end overflow-hidden">
+              <img src={event} alt={`Event ${index + 1}`} className="w-full h-full object-cover rounded-2xl" />
+            </div>
+          ))}
         </div>
+
       </section>
       {/* section4 */}
-      <section>
+      <section className='mt-12'>
         <TopAgency />
       </section>
       {/* section6 */}

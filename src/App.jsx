@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home'
 import News from './pages/News/News';
 import CreatorAgency from './pages/CreatorAgency/CreatorAgency';
+import  Benefit from './pages/Benefit/Benefit';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/creator-agency" element={<CreatorAgency />} />
             <Route path="/thong-bao" element={<News />} />
+            <Route path="/benefit" element={<Benefit />} />
           </Routes>
         </div>
         <Footer/>

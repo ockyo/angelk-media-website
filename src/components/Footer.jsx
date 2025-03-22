@@ -5,6 +5,7 @@ const Footer = () => {
         <section class="pt-16 pb-7 bg-black">
             <div className="w-full border-t-2 border-[#d4af7a]">
             </div>
+           
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className='py-8 flex border-b-2 border-[#d4af7a] justify-between'>
                     <div className='w-1/4'>
